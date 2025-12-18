@@ -1,0 +1,46 @@
+name: weather-demo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core Python
+  - python=3.11
+
+  # Data Processing
+  - numpy>=1.26.4
+  - pandas>=2.2.3
+  - xarray>=2025.1.1
+  - scipy>=1.14.1
+  - numexpr>=2.10.1
+
+  # Web Framework
+  - fastapi>=0.112.2
+  - uvicorn>=0.32.1
+  - pydantic>=2.10.3
+
+  # Visualization
+  - matplotlib>=3.10.0
+  - cartopy>=0.22.0
+
+  # Geospatial
+  - geopandas>=0.14.2
+  - shapely>=2.0.6
+  - pyproj>=3.6.1
+
+  # Storage & Cloud
+  - zarr>=2.13.3
+  - gcsfs>=2024.12.0
+  - fsspec>=2024.12.0
+
+  # Additional Dependencies
+  - pip>=24.2
+  - pip:
+    # Web Framework Extensions
+    - python-dotenv>=1.0.1
+    - pydantic-settings>=2.7.1
+    - uvloop>=0.21.0
+    - httptools>=0.6.4
+    - watchfiles>=1.0.4
+    - websockets>=14.1
+    - pyyaml>=6.0.2
+

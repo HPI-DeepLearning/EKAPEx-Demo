@@ -1,0 +1,200 @@
+{
+    "202001-greece": {
+        "type": ["windstorm", "rainfall"],
+        "description": "South-eastern europe and greece where hit by a storm with heavy precipitation and strong winds.",
+        "start_time": "2020-01-05",
+        "end_time": "2020-01-08",
+        "lat_slice": [33.0, 42.0],
+        "lon_slice": [20.0, 28.0],
+        "year": 2020,
+        "zarr_path": "gs://weatherbench2/datasets/graphcast/2020/date_range_2019-11-16_2021-02-01_12_hours_derived.zarr",
+        "location": ["Greece"]
+    },
+    "202002-ciara": {
+        "type": ["windstorm", "rainfall"],
+        "description": "Windstorm Ciara hit north-western europe on 9-10 february. 675,000 homes lost power during the storm.",
+        "start_time": "2020-02-09",
+        "end_time": "2020-02-10",
+        "lat_slice": [45, 62],
+        "lon_slice": [-10, 18],
+        "year": 2020,
+        "zarr_path": "gs://weatherbench2/datasets/graphcast/2020/date_range_2019-11-16_2021-02-01_12_hours_derived.zarr",
+        "location": ["Northwest Europe"]
+    },
+    "202002-dennis": {
+        "type": ["windstorm", "rainfall"],
+        "description": "Windstorm Dennis affected north-western europe. The cyclone centre was located south of Iceland.",
+        "start_time": "2020-02-15",
+        "end_time": "2020-02-16",
+        "lat_slice": [45.0, 63.0],
+        "lon_slice": [-12.0, 13.0],
+        "year": 2020,
+        "zarr_path": "gs://weatherbench2/datasets/graphcast/2020/date_range_2019-11-16_2021-02-01_12_hours_derived.zarr",
+        "location": ["Northwest Europe", "Iceland"]
+    },
+    "202004-arctic": {
+        "type": ["heatwave"],
+        "description": "The arctic on 15-16 and again 18-19 April saw an extremely warm period. At some points more than 20C warmer than average for the time of year.",
+        "start_time": "2020-04-14",
+        "end_time": "2020-04-20",
+        "lat_slice": [63, 88],
+        "lon_slice": [20, 90],
+        "year": 2020,
+        "zarr_path": "gs://weatherbench2/datasets/graphcast/2020/date_range_2019-11-16_2021-02-01_12_hours_derived.zarr",
+        "location": ["Arctic"]
+    },
+    "202004-spain": {
+        "type": ["rainfall"],
+        "description": "Heavy rain between 19 and 21 april crossed the Iberian Peninsula from west to east towards the Mediterranean.",
+        "start_time": "2020-04-19",
+        "end_time": "2020-04-21",
+        "lat_slice": [39, 44],
+        "lon_slice": [-2, 5],
+        "year": 2020,
+        "zarr_path": "gs://weatherbench2/datasets/graphcast/2020/date_range_2019-11-16_2021-02-01_12_hours_derived.zarr",
+        "location": ["Spain"]
+    },
+    "202005-amphan": {
+        "type": ["cyclone"],
+        "description": "The category 5-equivalent tropical cyclone Amphan hit north-eastern india, on the coast south of Kolkata on 20 may.",
+        "start_time": "2020-05-16",
+        "end_time": "2020-05-21",
+        "lat_slice": [10, 25],
+        "lon_slice": [78, 91],
+        "year": 2020,
+        "zarr_path": "gs://weatherbench2/datasets/graphcast/2020/date_range_2019-11-16_2021-02-01_12_hours_derived.zarr",
+        "location": ["India", "Kolkata"]
+    },
+    "202005-se-europe": {
+        "type": ["heatwave"],
+        "description": "Around 17 May south-eastern Europe experienced a heat-wave, with temperatures reaching above 40 degrees.",
+        "start_time": "2020-05-11",
+        "end_time": "2020-05-18",
+        "lat_slice": [32, 44],
+        "lon_slice": [20, 38],
+        "year": 2020,
+        "zarr_path": "gs://weatherbench2/datasets/graphcast/2020/date_range_2019-11-16_2021-02-01_12_hours_derived.zarr",
+        "location": ["Southeast Europe"]
+    },
+    "202006-n-russia": {
+        "type": ["heatwave"],
+        "description": "On 20 June the temperature record north of the Arctic circle was broken in Verkhoyansk in Russia (67.6N, 133.4E, station 24266), when they reported 38C.",
+        "start_time": "2020-06-15",
+        "end_time": "2020-06-25",
+        "lat_slice": [60, 76],
+        "lon_slice": [100, 179],
+        "year": 2020,
+        "zarr_path": "gs://weatherbench2/datasets/graphcast/2020/date_range_2019-11-16_2021-02-01_12_hours_derived.zarr",
+        "location": ["Russia", "Verkhoyansk"]
+    },
+    "202007-japan": {
+        "type": ["rainfall"],
+        "description": "Heavy rainfall hit south-western prefectures of Japan. At least 18 people died and 14 were missing in the prefectures of Kumamoto and Kagoshima. More than 400 mm were recorded in some places with more than 100 mm in just less than an hour.",
+        "start_time": "2020-07-01",
+        "end_time": "2020-07-04",
+        "lat_slice": [30, 40],
+        "lon_slice": [126, 142],
+        "year": 2020,
+        "zarr_path": "gs://weatherbench2/datasets/graphcast/2020/date_range_2019-11-16_2021-02-01_12_hours_derived.zarr",
+        "location": ["Japan", "Kumamoto", "Kagoshima"]
+    },
+    "202007-sofia": {
+        "type": ["rainfall"],
+        "description": "A thunderstormon on 6 July brought torrential rain and caused flooding in the Bulgaria's capital of Sofia.",
+        "start_time": "2020-07-05",
+        "end_time": "2020-07-07",
+        "lat_slice": [40, 45],
+        "lon_slice": [22, 26],
+        "year": 2020,
+        "zarr_path": "gs://weatherbench2/datasets/graphcast/2020/date_range_2019-11-16_2021-02-01_12_hours_derived.zarr",
+        "location": ["Bulgaria", "Sofia"]
+    },
+    "202008-ellen": {
+        "type": ["windstorm", "rainfall"],
+        "description": "The cyclone Ellen hit the south-coast of ireland on 19-20 august.",
+        "start_time": "2020-08-19",
+        "end_time": "2020-08-21",
+        "lat_slice": [46, 58],
+        "lon_slice": [-18, -2],
+        "year": 2020,
+        "zarr_path": "gs://weatherbench2/datasets/graphcast/2020/date_range_2019-11-16_2021-02-01_12_hours_derived.zarr",
+        "location": ["Ireland"]
+    },
+    "202008-isaias": {
+        "type": ["cyclone"],
+        "description": "Hurricane Isaias (category 1 hurricane) affected the Caribbean and the U.S. east-coast. Isaias killed at least 8 people and >5 billion dollar damage.",
+        "start_time": "2020-07-30",
+        "end_time": "2020-08-05",
+        "lat_slice": [18, 40],
+        "lon_slice": [-82, -70],
+        "year": 2020,
+        "zarr_path": "gs://weatherbench2/datasets/graphcast/2020/date_range_2019-11-16_2021-02-01_12_hours_derived.zarr",
+        "location": ["Caribbean", "United States"]
+    },
+    "202008-laura": {
+        "type": ["cyclone"],
+        "description": "On 27 August the hurricane Laura (category 4 hurricane) hit the U.S. south-coast in the western Louisiana. The 10th most intense cyclone to make U.S landfall based on maximum wind speed (according to Wikipedia). Around 30 people were killed.",
+        "start_time": "2020-08-21",
+        "end_time": "2020-08-27",
+        "lat_slice": [20, 36],
+        "lon_slice": [-95, -85],
+        "year": 2020,
+        "zarr_path": "gs://weatherbench2/datasets/graphcast/2020/date_range_2019-11-16_2021-02-01_12_hours_derived.zarr",
+        "location": ["United States", "Louisiana"]
+    },
+    "202008-w-europe": {
+        "type": ["heatwave"],
+        "description": "Western europe underwent a strong heatwave in august. Paris measured above 35C and London Heathrow above 33C during 6 consecutive days (7-12 August).",
+        "start_time": "2020-08-05",
+        "end_time": "2020-08-13",
+        "lat_slice": [40, 54],
+        "lon_slice": [-7, 11],
+        "year": 2020,
+        "zarr_path": "gs://weatherbench2/datasets/graphcast/2020/date_range_2019-11-16_2021-02-01_12_hours_derived.zarr",
+        "location": ["Western Europe"]
+    },
+    "202009-ianos": {
+        "type": ["windstorm", "rainfall"],
+        "description": "The windstorm Ianos hit the west cost of greece on the early hours of 18 september. Athens weather station in Karditsa central Greece recorded 190.6mm of rain on 18 september.",
+        "start_time": "2020-09-17",
+        "end_time": "2020-09-19",
+        "lat_slice": [37, 41],
+        "lon_slice": [17, 26],
+        "year": 2020,
+        "zarr_path": "gs://weatherbench2/datasets/graphcast/2020/date_range_2019-11-16_2021-02-01_12_hours_derived.zarr",
+        "location": ["Greece"]
+    },
+    "202010-alex": {
+        "type": ["windstorm", "rainfall"],
+        "description": "On 1 October, storm Alex impacted large parts of western europe and hit the coast of brittany in france by the end of the day. The next day parts of south-eastern france and north-western italy saw record rainfall and left at around 15 people dead.",
+        "start_time": "2020-10-01",
+        "end_time": "2020-10-04",
+        "lat_slice": [37, 53],
+        "lon_slice": [-10, 16],
+        "year": 2020,
+        "zarr_path": "gs://weatherbench2/datasets/graphcast/2020/date_range_2019-11-16_2021-02-01_12_hours_derived.zarr",
+        "location": ["Western Europe", "France", "Italy"]
+    },
+    "202010-barbara": {
+        "type": ["windstorm", "rainfall"],
+        "description": "Storm Barbara hit portugal and spain.",
+        "start_time": "2020-10-19",
+        "end_time": "2020-10-25",
+        "lat_slice": [36, 44],
+        "lon_slice": [-11, -4],
+        "year": 2020,
+        "zarr_path": "gs://weatherbench2/datasets/graphcast/2020/date_range_2019-11-16_2021-02-01_12_hours_derived.zarr",
+        "location": ["Portugal", "Spain"]
+    },
+    "202011-iota": {
+        "type": ["cyclone"],
+        "description": "Tropical cyclone Iota hit the east-coast of nicaragua, close to the boarder of Honduras on 17 November. The cyclone intensified before landfall to category 4/5.",
+        "start_time": "2020-11-16",
+        "end_time": "2020-11-17",
+        "lat_slice": [13, 18],
+        "lon_slice": [-86, -82],
+        "year": 2020,
+        "zarr_path": "gs://weatherbench2/datasets/graphcast/2020/date_range_2019-11-16_2021-02-01_12_hours_derived.zarr",
+        "location": ["Nicaragua", "Honduras"]
+    }
+}

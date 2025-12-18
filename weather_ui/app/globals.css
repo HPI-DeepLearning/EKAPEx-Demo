@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+  :root {
+    /* Modern neutral palette with subtle blue accent */
+    --background: 0 0% 98%;
+    --foreground: 220 13% 13%;
+ 
+    --muted: 220 13% 95%;
+    --muted-foreground: 220 9% 46%;
+ 
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 13%;
+ 
+    --card: 0 0% 100%;
+    --card-foreground: 220 13% 13%;
+ 
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+ 
+    /* Modern blue accent - similar to Apple/Windy */
+    --primary: 221 83% 53%;
+    --primary-foreground: 0 0% 100%;
+ 
+    --secondary: 220 13% 95%;
+    --secondary-foreground: 220 13% 13%;
+ 
+    --accent: 221 83% 53%;
+    --accent-foreground: 0 0% 100%;
+ 
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+ 
+    --ring: 221 83% 53%;
+ 
+    --radius: 0.75rem;
+    
+    /* Custom variables for modern weather UI */
+    --sidebar-width: 320px;
+    --header-height: 64px;
+    --control-panel-bg: 0 0% 100%;
+    --overlay-bg: 220 13% 13%;
+  }
+ 
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+ 
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+ 
+    --popover: 224 71% 4%;
+    --popover-foreground: 213 31% 91%;
+ 
+    --card: 223 47% 11%;
+    --card-foreground: 213 31% 91%;
+ 
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+ 
+    --primary: 221 83% 53%;
+    --primary-foreground: 0 0% 100%;
+ 
+    --secondary: 222 47% 11%;
+    --secondary-foreground: 213 31% 91%;
+ 
+    --accent: 216 34% 17%;
+    --accent-foreground: 213 31% 91%;
+ 
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 213 31% 91%;
+ 
+    --ring: 216 34% 17%;
+    
+    --control-panel-bg: 223 47% 11%;
+    --overlay-bg: 0 0% 100%;
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  /* Modern smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Modern card style with subtle shadow */
+  .modern-card {
+    @apply bg-card rounded-xl border border-border shadow-sm hover:shadow-md transition-shadow duration-200;
+  }
+  
+  /* Frosted glass effect for floating panels */
+  .glass-panel {
+    @apply bg-card/80 backdrop-blur-xl border border-border/50 shadow-lg;
+  }
+  
+  /* Modern input focus style */
+  .modern-focus {
+    @apply focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all duration-200;
+  }
+  
+  /* Smooth transitions for interactive elements */
+  .smooth-transition {
+    @apply transition-all duration-200 ease-in-out;
+  }
+  
+  /* Custom scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    @apply w-2;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-muted/50 rounded-full;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-muted-foreground/30 rounded-full hover:bg-muted-foreground/50 transition-colors;
+  }
+}
+
+@layer utilities {
+  /* Text balance for better typography */
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  /* Animation utilities */
+  .animate-in {
+    animation: animate-in 0.3s ease-out;
+  }
+  
+  @keyframes animate-in {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Fade in animation */
+  .fade-in {
+    animation: fade-in 0.2s ease-in;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+

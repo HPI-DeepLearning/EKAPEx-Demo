@@ -1,0 +1,29 @@
+name: weather-demo-dev
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Include all dependencies from environment.yml
+  - python=3.11
+  - numpy>=1.26.4
+  - pandas>=2.2.3
+  - xarray>=2025.1.1
+  - fastapi>=0.112.2
+  - uvicorn>=0.32.1
+  - matplotlib>=3.10.0
+  - cartopy>=0.22.0
+  - geopandas>=0.14.2
+  - zarr>=2.18.3
+  - gcsfs>=2024.12.0
+  
+  # Development Tools
+  - pytest
+  - pytest-cov
+  - pip
+  - pip:
+    # Production pip dependencies
+    - python-dotenv>=1.0.1
+    - pydantic-settings>=2.7.1
+    
+    # Development pip dependencies
+    - httpx 
