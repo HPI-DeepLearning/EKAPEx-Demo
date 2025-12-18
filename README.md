@@ -107,4 +107,4 @@ For detailed setup and API documentation, see:
 
 ## License
 
-See individual component READMEs for license information.
+See the license file.
